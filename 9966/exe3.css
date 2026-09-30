@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(218, 141, 8);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 40px;
+}
+
+.botoes {
+    padding: 15px 40px;
+    font-size: 20px;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.botoes:hover {
+    background-color: rgb(218, 141, 8);
+    transform: scale(1.1);
+    color: black;
+    border: 2px solid white;
+}

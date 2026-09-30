@@ -1,0 +1,63 @@
+body {
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: white;
+    color: blue;
+}
+
+.container {
+    width: 500px;
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+.meuh1 {
+    font-size: 50px;
+    margin-top: 100px;
+    color: pink;
+}
+
+header {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+}
+
+.bola {
+  display: block;
+  background: black;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  margin: 0;
+}

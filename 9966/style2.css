@@ -1,0 +1,16 @@
+.bola {
+  display: block;
+  left: 0;
+  background: black;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  margin: 0;
+}
+
+.bola:hover {
+    position: absolute;
+    right: 50px;
+    background-color: blue;
+    transform: translate(500px);
+}
